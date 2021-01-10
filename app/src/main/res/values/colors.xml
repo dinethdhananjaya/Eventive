@@ -7,4 +7,20 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="lightWhite">#F0F0F0</color>
+
+    <!--    <color name="colorPrimary">#5d34b1</color>-->
+    <!--    <color name="colorPrimaryDark">#9124ac</color>-->
+
+
+    <color name="colorPrimary">#6340AA</color>
+    <color name="colorPrimaryDark">#5d34b1</color>
+    <!--    <color name="colorPrimary">#9124ac</color>-->
+    <!--    <color name="colorPrimaryDark">#5d34b1</color>-->
+    <color name="colorAccent">#9162e4</color>
+    <color name="cardlight">#EFEFEF</color>
+    <color name="carddark">#2C2C2C</color>
+
+
+    <color name="darkmodelayout">#121212</color>
 </resources>

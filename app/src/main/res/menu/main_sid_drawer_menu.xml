@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_home"
+                    android:icon="@drawable/ic_baseline_home_24"
+                    android:title="Home" />
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/ic_baseline_account_circle_24"
+                    android:title="Profile" />
+
+        </group>
+
+
+
+        <item android:title="Settings">
+                <menu>
+                        <group android:checkableBehavior="single">
+                                <item
+                                    android:id="@+id/nav_dark_mode"
+                                    android:icon="@drawable/ic_baseline_nights_stay_24"
+                                    android:title="Dark mode " />
+
+                        </group>
+                </menu>
+
+        </item>
+
+        <item android:title="Log out">
+                <menu>
+                        <group android:checkableBehavior="single">
+                                <item
+                                    android:id="@+id/nav_logout"
+                                    android:icon="@drawable/ic_baseline_undo_24"
+                                    android:title="Logout " />
+
+                        </group>
+                </menu>
+
+        </item>
+
+
+</menu>
