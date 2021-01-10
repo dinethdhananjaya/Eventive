@@ -88,6 +88,8 @@ public class LoginActivity extends AppCompatActivity {
     private void LoginWithFirebase() {
 
 
+
+
         mAuth.signInWithEmailAndPassword(login_email.getText().toString(), login_password.getText().toString())
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                     @Override
