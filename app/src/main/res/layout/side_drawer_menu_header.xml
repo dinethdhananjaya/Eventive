@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/back_slider">
+    <LinearLayout
+
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="254dp"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/navPro"
+            android:layout_width="110dp"
+            app:civ_border_color="@color/white"
+            app:civ_border_width="3dp"
+            android:layout_height="116dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-1dp"
+            android:src="@drawable/man" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/app_slogan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Turn your dream into reality"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eventive"
+        android:layout_above="@id/app_slogan"
+        android:layout_marginLeft="10dp"
+        android:textSize="24sp"
+        android:textColor="@color/white"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+        android:alpha="0.5"
+        android:scaleType="centerCrop"/>
+
+
+</RelativeLayout>
