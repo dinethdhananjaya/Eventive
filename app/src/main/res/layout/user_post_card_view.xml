@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:checkable="true"
+    android:clickable="true"
+    android:id="@+id/conatiner"
+    android:focusable="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:theme="@style/cardbackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title_post"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/muli_semibold"
+                android:text="Sports Meet in Galaxy Field"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/post_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableStart="@drawable/ic_baseline_calendar_today_24"
+                android:fontFamily="@font/muli_semibold"
+                android:text="12/01/2019"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/post_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_baseline_location_on_24"
+                android:fontFamily="@font/muli_semibold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Galaxyfields, Sector 22, Faridabad"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/post_image"
+            android:layout_width="245dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/coraprativeparty" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
